@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Project10 - Jeremy Bowne</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="project10.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="project10form.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+      <script src="scripts/semantic.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="box">
+      <h2>Dog Information Form by Jeremy Bowne<br />
+        <img src="pet_banner.jpg" width="395" height="150" alt="Tims Animals Services and Kennels" title="" />
+      </h2>
+        <ul id="mainnav">
+          <li><a href="index.html">Home</a> </li>
+          <li><a href="class.html">Dog Obedience Classes</a> </li>
+          <li><a href="board.html">Boarding</a> </li>
+          <li><a href="vet.html">Medical Service</a> </li>
+        </ul>
+   </div>
+      <h3 id="main">Please complete the following items.</h3>
+      <form>
+        <fieldset id="ownerinfo">
+          <legend><span>Owner Information</span></legend>
+          <label for="nameinput"> 
+            Name 
+            <input type="text" id="nameinput" name="name" placeholder="First and last name" /> 
+          </label> 
+          <label for="addrinput"> 
+            Street Address 
+            <input type="text" id="addrinput" name="address" placeholder="Building number and street" /> 
+          </label> 
+          <label for="cityinput"> 
+            City 
+            <input type="text" id="cityinput" name="city" /> 
+          </label>
+          <label for="emailinput"> 
+            Email 
+            <input type="email" id="emailinput" name="email" placeholder="address@example.com" /> 
+          </label>
+          <label for="phoneinput"> 
+            Phone 
+            <input type="text" id="phoneinput" name="phone" /> 
+          </label>
+        </fieldset>
+        <fieldset id="doginfo">
+          <legend><span>Dog</span></legend>
+          <fieldset id="gender">
+            <legend>Gender</legend>
+            <label for="Female"> 
+              <input type="radio" id="female" name="gender" value="F"/> 
+              Female 
+            </label>
+            <label for="Male"> 
+              <input type="radio" id="male" name="gender" value="M"/> 
+              Male 
+            </label>
+          </fieldset>
+          <fieldset id="dogsize">
+            <legend>Size</legend>
+            <select id="size" name="size">
+              <option value="small">Small (under 10 lbs)</option>
+              <option value="medium">Medium (10-25 lbs)</option>
+              <option value="large">Large (25-60 lbs)</option>
+              <option value="XL">Extra Large (over 60 lbs)</option>
+            </select>
+          </fieldset>
+        </fieldset>
+        <fieldset id="medinfo">
+          <legend><span>Medical</span></legend>
+          <fieldset id="shots">
+            <legend>Shots</legend>
+            <label for="Yes"> 
+              <input type="radio" name="shots" id="Yes" value="Y" /> 
+              YES
+            </label>
+            <label for="No"> 
+              <input type="radio" name="shots" id="No" value="N" /> 
+              NO
+            </label>
+           
+          </fieldset>
+          <fieldset id="concerns">
+            <legend>Concern(s)</legend>
+
+            <label for="allergies"> 
+              <input type="checkbox" id="allergies" name="allergies" value="allergies" /> 
+              Allergies 
+            </label> 
+            <label for="barks"> 
+              <input type="checkbox" id="barks" name="barks" value="barks" /> 
+              Barking 
+            </label> 
+            <label for="bites"> 
+              <input type="checkbox" id="bites" name="bites" value="bites" /> 
+              Biting 
+            </label> 
+            <label for="chews"> 
+              <input type="checkbox" id="chew" name="chews" value="chewing" /> 
+              Chewing 
+            </label>
+            <label for="digs"> 
+              <input type="checkbox" id="digs" name="digs" value="digs" /> 
+              Digging 
+            </label>
+            <label for="anxiety"> 
+              <input type="checkbox" id="anxiety" name="anxiety" value="anxiety" /> 
+              Seperation anxiety
+            </label>
+
+
+          </fieldset>
+        </fieldset>
+        <fieldset id="additionalinfo">
+          <legend><span>Special Information</span></legend>
+          <label for="info">
+            Other comments or concerns
+            <textarea id="info" name="info" rows="3" cols="60"></textarea>
+          </label>
+        </fieldset>
+        <fieldset id="submitbutton">
+          <input type="submit" id="Submit" value="Submit Information" />
+        </fieldset>
+      </form>
+      <h5>Any information submitted on this form will be kept confidential. T.A.S.K. 
+does not share or sell your information to others</h5>
+  </body>
+</html>

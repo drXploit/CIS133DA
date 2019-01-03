@@ -1,0 +1,44 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+/* Jeremy Bowne HTML5 Unit D */
+@font-face {
+  font-family: 'CuprumFFURegular';
+  src: url('Cuprum-webfont.eot');
+  src: local('☺'), url('Cuprum-webfont.woff') format('woff'), url('Cuprum-webfont.ttf') format('truetype'), url('Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+h1, h2 {
+  text-align: center;
+  font-family: CuprumFFURegular, georgia, "times new roman", times, serif;
+  }
+h1 {
+  margin: 0;
+  font-size: 2em;
+  padding: 0.25em;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+#box {
+  width: 40em;
+  padding: 1em;
+  margin-left: auto; 
+  margin-right: auto;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  width: 12.5em;
+  margin-left: auto;
+  margin-bottom: 0;
+  }
+#callout {
+  font-weight: bold;
+  }
+#title {
+  font-style: italic;
+  }
+#name {
+  font-weight: bold;
+  }

@@ -1,0 +1,25 @@
+/* Jeremy Bowne */
+      h2 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+      }
+      #resp {
+        border-width: 0.1em;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+      }
+      #who {
+        text-align: center;
+      }
+      .listing {
+        border-width: 0.1em;
+        border-style: solid;
+        width: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1em;
+      }

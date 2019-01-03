@@ -1,0 +1,74 @@
+/* Jeremy Bowne */
+    h1, h2, h3, h4 {
+      font-family: tahoma, arial, helvetica, sans-serif;
+      text-align: left;
+    }
+    h2 {
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+    }
+    p {
+      font-family: tahoma, arial, helvetica, sans-serif;
+    }
+    #resp {
+      border-width: 0.1em;
+      border-style: solid;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em;
+    }
+    #who {
+      text-align: right;
+      font-family: verdana, geneva, sans-serif;
+      padding: 0.75em;
+      background: #339999;
+      width: 18em;
+      margin-left: auto;
+    }
+    .bigred {
+      font-size: 1.2em;
+      color: rgb(255,0,0);
+    }
+    .imp {
+      font-weight: bold;
+    }
+    .slant {
+      font-style: italic;
+    }
+    .listing {
+      border-width: 0.1em;
+      border-style: solid;
+      width: 15em;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0.1em;
+    }
+    a:link { 
+      color:#0000FF; /* blue */ 
+      } 
+    a:visited { 
+      color:#FF0000; /* red */ 
+      } 
+    a:hover { 
+      color:#FFFF9C; /* pale yellow */ 
+      } 
+    #menubar { 
+      font-family: tahoma, arial, helvetica, sans-serif; 
+      font-size: 120%; 
+      } 
+    #nomenu { 
+      text-align: right; 
+      margin: 0 auto; 
+      padding: 0.25em; 
+      }
+    #menubar a:link {
+      color: #008000;
+    }
+    #menubar a:visited {
+      color: #FFA500
+    }
+    #menubar a:hover {
+      color: #FF00FF
+    }

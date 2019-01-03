@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jeremy Bowne</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="project12.css" />
+    <link rel="shortcut icon" href="taskicon.ico" />
+    <script src="scripts/modernizr-1.6.min.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="project12.js"></script>
+    <!--[if lt IE 7]>
+      <style type="text/css">
+        #mainnav {left: 0px;}
+        li img {left: -42px;}
+      </style>
+    <![endif]-->
+  	<!--[if IE]>
+		<style type="text/css">
+    	legend span {top: 0;}
+    	legend {color: black;}
+    	#submit {position: relative; left: -80px;}
+    </style>
+	<![endif]-->
+  </head>
+  <body>
+     <form name="contact" id="contact">
+       <figure><img src="dog_trick.jpg" /></figure>
+       <h1>T. A. S. K. Classes</h1>
+       <h3>Information Request Form
+       <br />By Jeremy Bowne</h3>
+       <h2 id="message"></h2>
+
+       We have a wide variety of classes for you and your dog. 
+       Please complete the following so that we can better match your pet to our offerings.
+        
+       <fieldset id="contactinfo">
+           <legend><span>Contact Information</span></legend>
+           <label for="nameinput">
+               <span class="req">*</span>Name 
+	       <input type="text" id="nameinput" name="name" placeholder="First and last name" />
+           </label>
+           <label for="emailinput">
+               Email 
+	       <input type="email" id="emailinput" name="email" placeholder="address@example.com" />
+           </label>
+           <label for="phoneinput">
+               Phone 
+	       <input type="text" id="phoneinput" name="phone" />
+           </label>
+           <p id="instructions"><span class="req">*</span>Required</p>
+       </fieldset>  <!-- end of contactinfo -->
+
+       <fieldset id="classinfo">
+           <legend><span>Preliminary Information</span></legend>
+          
+           <fieldset id="obedclassbox">
+               <legend>Obedience Classes Offered</legend>
+               These classes cover all the basic commands, including: Sit, Down, Stay, Come, 
+               Walk (walking nicely on leash), Heel. Also, the obdience class includes 
+               elimination of problem behaviors. Please indicate which class(es) 
+               you would want more detailed information (check all that apply):<p>
+               <label for="rem">
+                   <input type=checkbox id="rem" name="obed_class" value="REM" />
+                   Remedial
+               </label>
+               <label for="beg">
+                   <input type=checkbox id="beg" name="obed_class" value="BEG" />
+                   Beginning
+               </label>
+               <label for="int">
+                   <input type=checkbox id="int" name="obed_class" value="INT" />
+                   Intermediate
+               </label>
+               <label for="adv">
+                   <input type=checkbox id="adv" name="obed_class" value="ADV" />
+                   Advance
+               </label>
+               <label for="show">
+                   <input type=checkbox id="show" name="obed_class" value="SHO" />
+                   Show
+               </label>
+           </fieldset>
+       </fieldset> <!-- end of classinfo -->
+
+       <fieldset id="submitbutton">
+           <input type="button" id="submit" value="Submit" onclick='writeMsg()' /> 
+       </fieldset>
+
+     </form>
+  </body>
+</html>

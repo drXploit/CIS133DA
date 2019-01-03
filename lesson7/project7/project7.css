@@ -1,0 +1,42 @@
+/* Style sheet for Project 7 - Unit G */
+/* Jeremy Bowne */
+
+body { 
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-size: 12px;
+    margin: 20px;
+    }
+dt    { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    }
+h1, h2, h3, h4, p { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+td {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 0.25em;
+  border: 1px solid black;
+  vertical-align: top;
+  }
+
+#mainnav {
+    background: skyblue;
+    text-align: center;
+    margin: 0;
+    }
+#mainnav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0.5em;
+    font-size: 16px;
+    }
+
+.cat {
+    background-color: #8BB381;
+    }
+.dog {
+    background-color: #FFF380;
+    }

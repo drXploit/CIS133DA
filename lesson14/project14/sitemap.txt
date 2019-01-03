@@ -1,0 +1,2 @@
+http://www.example.com/index.html
+http://www.example.com/location.html

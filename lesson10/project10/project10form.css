@@ -1,0 +1,59 @@
+/* Project 10 -- Forms */
+legend, #submit {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  }
+fieldset {
+  margin-bottom: 5px;
+  position: relative;
+  padding: 2.5em 1em 0.5em 1em;
+  background: #e3d5ba;
+  }
+fieldset fieldset {
+  padding-top: 5px;
+  }
+form {
+  background: #BBCCFF;
+  padding: 10px;
+  }
+input, textarea {
+  font-size: 1em;
+  }
+input:focus, textarea:focus {
+  background: #f99;
+  }
+legend span {
+  position: absolute;
+  left: 0;
+  font-size: 1.1em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  }
+#additionalinfo {
+  display: block;
+  }
+#ownerinfo, #doginfo, #medinfo, #additionalinfo, #submitbutton {
+  border: solid, 1em;
+  }
+#ownerinfo label {
+  display: block;
+  position: relative;
+  margin: 12px 0;
+  }
+#nameinput, #emailinput, #addrinput {
+  width: 30em;
+  }
+#cityinput, #phoneinput {
+  width: 12em;
+  }
+#gender label, #shots label {
+  margin-right: 25px;
+  }
+#submit {
+  font-size: 1.25em;
+  }
+#submitbutton {
+  background: #e3d5ba;
+  padding: 0.5em;
+  text-align: center;
+  }

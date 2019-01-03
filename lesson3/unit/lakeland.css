@@ -1,0 +1,23 @@
+﻿/* Lakeland Reeds Bed and Breakfast */
+      h1 {
+        text-align: center;
+        }
+      #contact {
+        text-align: right;
+        }
+      #box {
+        border-width: 0.25em;
+        border-style: solid;
+        border-color: black;
+        width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+        }
+      .maintext {
+        text-align: left;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+/* Jeremy Bowne HTML5 Unit C */

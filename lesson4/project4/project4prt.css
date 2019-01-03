@@ -1,0 +1,45 @@
+/* Jeremy Bowne */
+      h1, h2, h3, h4 {
+        font-family: tahoma, arial, helvetica, sans-serif;
+        text-align: left;
+      }
+      h2 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+      }
+      p {
+        font-family: tahoma, arial, helvetica, sans-serif;
+      }
+      #resp {
+        border-width: 0.1em;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+      }
+      #who {
+        text-align: right;
+        font-family: verdana, geneva, sans-serif;
+        padding: 0.75em;
+        width: 18em;
+        margin-left: auto;
+      }
+      .bigred {
+        font-size: 1.2em;
+      }
+      .imp {
+        font-weight: bold;
+      }
+      .slant {
+        font-style: italic;
+      }
+      .listing {
+        border-width: 0.1em;
+        border-style: solid;
+        width: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1em;
+      }
